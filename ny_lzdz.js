@@ -1,6 +1,6 @@
 /*
 京东-大牌好礼带回家
-cron 35 1 * * * lzdz1_customized.js
+cron 35 1 * * * ny_lzdz.js
 
 活动入口：...
 TG频道：
