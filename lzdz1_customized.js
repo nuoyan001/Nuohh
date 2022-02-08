@@ -1,4 +1,13 @@
+/*
+京东-幸福小店
+cron 18 1 * * * lzdz1_customized.js
+*/
+
+
+
 const $ = new Env("大牌好礼带回家");
+const jsname = '大牌好礼带回家'
+
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [], cookie = '', message = '';
