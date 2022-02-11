@@ -1,6 +1,6 @@
-
 /*
-cron:30 0,10 8-15 2 *
+遇见爱  遇见你
+cron: 23 11 * * *
 */
 const $ = new Env("遇见爱  遇见你");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
